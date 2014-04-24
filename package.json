@@ -1,0 +1,34 @@
+{
+  "name": "is-pdf",
+  "version": "0.1.0",
+  "description": "Check if a Buffer/Uint8Array is a 7ZIP file",
+  "license": "MIT",
+  "repository": "kevva/is-pdf",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "browser": "browserify -s $npm_package_name -o browser.js .",
+    "test": "mocha --reporter list"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "buffer",
+    "check",
+    "detect",
+    "pdf",
+    "type",
+    "uint8array"
+  ],
+  "devDependencies": {
+    "browserify": "^3.44.2",
+    "mocha": "^1.18.2"
+  }
+}
