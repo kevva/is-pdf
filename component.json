@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Check if a Buffer/Uint8Array is a PDF file",
   "license": "MIT",
-  "repo": "kevva/is-pdf",
+  "repository": "kevva/is-pdf",
   "main": "index.js",
   "scripts": [
     "index.js"
