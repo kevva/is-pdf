@@ -4,29 +4,20 @@
 
 ## Install
 
-```bash
+```sh
 $ npm install --save is-pdf
-```
-
-```bash
-$ component install kevva/is-pdf
-```
-
-```bash
-$ bower install --save is-pdf
 ```
 
 ## Usage
 
 ```js
-var fs = require('fs');
 var isPdf = require('is-pdf');
-var buf = fs.readFileSync('foo.pdf');
+var read = require('fs').readFileSync;
 
-isPdf(buf);
+isPdf(read('foo.pdf'));
 // => true
 ```
 
 ## License
 
-MIT © [Kevin Mårtensson](https://github.com/kevva)
+[MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Kevin Mårtensson](https://github.com/kevva)
