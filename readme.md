@@ -2,11 +2,13 @@
 
 > Check if a Buffer/Uint8Array is a PDF file
 
+
 ## Install
 
-```sh
+```
 $ npm install --save is-pdf
 ```
+
 
 ## Usage
 
@@ -17,6 +19,7 @@ var read = require('fs').readFileSync;
 isPdf(read('foo.pdf'));
 //=> true
 ```
+
 
 ## License
 
