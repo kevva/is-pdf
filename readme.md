@@ -13,8 +13,8 @@ $ npm install --save is-pdf
 ## Usage
 
 ```js
-var isPdf = require('is-pdf');
 var read = require('fs').readFileSync;
+var isPdf = require('is-pdf');
 
 isPdf(read('foo.pdf'));
 //=> true

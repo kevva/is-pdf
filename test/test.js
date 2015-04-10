@@ -1,9 +1,9 @@
 'use strict';
 
-var isPdf = require('../');
 var path = require('path');
 var readChunk = require('read-chunk');
 var test = require('ava');
+var isPdf = require('../');
 
 test('should detect PDF from buffer', function (t) {
 	t.plan(2);
